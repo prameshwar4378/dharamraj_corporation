@@ -1,0 +1,1559 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add dealer",
+    "content_type": 6,
+    "codename": "add_dealer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change dealer",
+    "content_type": 6,
+    "codename": "change_dealer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete dealer",
+    "content_type": 6,
+    "codename": "delete_dealer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view dealer",
+    "content_type": 6,
+    "codename": "view_dealer"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add invoice",
+    "content_type": 7,
+    "codename": "add_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change invoice",
+    "content_type": 7,
+    "codename": "change_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete invoice",
+    "content_type": 7,
+    "codename": "delete_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view invoice",
+    "content_type": 7,
+    "codename": "view_invoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 8,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 8,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 8,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 8,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add state",
+    "content_type": 9,
+    "codename": "add_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change state",
+    "content_type": 9,
+    "codename": "change_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete state",
+    "content_type": 9,
+    "codename": "delete_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view state",
+    "content_type": 9,
+    "codename": "view_state"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add purchase",
+    "content_type": 10,
+    "codename": "add_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change purchase",
+    "content_type": 10,
+    "codename": "change_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete purchase",
+    "content_type": 10,
+    "codename": "delete_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view purchase",
+    "content_type": 10,
+    "codename": "view_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add invoice item",
+    "content_type": 11,
+    "codename": "add_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change invoice item",
+    "content_type": 11,
+    "codename": "change_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete invoice item",
+    "content_type": 11,
+    "codename": "delete_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view invoice item",
+    "content_type": 11,
+    "codename": "view_invoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 12,
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 12,
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 12,
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 12,
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add account",
+    "content_type": 13,
+    "codename": "add_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change account",
+    "content_type": 13,
+    "codename": "change_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete account",
+    "content_type": 13,
+    "codename": "delete_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view account",
+    "content_type": 13,
+    "codename": "view_account"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add performa invoice",
+    "content_type": 14,
+    "codename": "add_performainvoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change performa invoice",
+    "content_type": 14,
+    "codename": "change_performainvoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete performa invoice",
+    "content_type": 14,
+    "codename": "delete_performainvoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view performa invoice",
+    "content_type": 14,
+    "codename": "view_performainvoice"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add performa invoice item",
+    "content_type": 15,
+    "codename": "add_performainvoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change performa invoice item",
+    "content_type": 15,
+    "codename": "change_performainvoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete performa invoice item",
+    "content_type": 15,
+    "codename": "delete_performainvoiceitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view performa invoice item",
+    "content_type": 15,
+    "codename": "view_performainvoiceitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "Developer",
+    "model": "dealer"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "Developer",
+    "model": "invoice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "Developer",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "Developer",
+    "model": "state"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "Developer",
+    "model": "purchase"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "Developer",
+    "model": "invoiceitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "Developer",
+    "model": "customuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "Developer",
+    "model": "account"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "Developer",
+    "model": "performainvoice"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "Developer",
+    "model": "performainvoiceitem"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h4vn223myhlkum9ofj89c19tt0xoxafs",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8HTp3m8gwwBSNTQp7cr479qkC93ec859sYjb2uI2yhKnzM5MsdPvlpAepe8g37HfZk5zX5cp8V3hBx38OufyvBzu30HD0b41Oo8ovFTJGAeBQjXW2OoQpHW6oqwBXa7aAxGSNgWsyEk7YUCBgMLeH9fbN3Q:1rhWLk:jjkCoFQ2FWW78iFR52b3BNfwv37Fnvgq9T6_G19V5ks",
+    "expire_date": "2024-03-19T15:05:00.457Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tovytf7icgz8vpr8t1omfd0aot5iwifv",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSHA8HTp3m8gwwBSNTQp7cr479qkC93ec859sYjb2uI2yhKnzM5MsdPvlpAepe8g37HfZk5zX5cp8V3hBx38OufyvBzu30HD0b41Oo8ovFTJGAeBQjXW2OoQpHW6oqwBXa7aAxGSNgWsyEk7YUCBgMLeH9fbN3Q:1rfxoi:nvfd2oURblVP6rb9PA6ItT2xtjlo2bnJxn8TO5vMWIU",
+    "expire_date": "2024-03-15T08:00:28.858Z"
+  }
+},
+{
+  "model": "Developer.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8up4qU1DoP5z1wuVAQeVcx$NAl6PG8Zth0lCpf6gM2OB+j53tSTTZjobwzPwDTLA6U=",
+    "last_login": "2024-03-05T14:57:44.521Z",
+    "is_superuser": true,
+    "username": "Admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-01T07:14:11.362Z",
+    "name": "",
+    "designation": "",
+    "is_admin": false,
+    "profile_image": "",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Developer.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$naVECvV3Ui445OQ4YJOacn$IuyL5KpQwvt2++QthqealS5E5t6YgFdL7POCAadCM1I=",
+    "last_login": "2024-03-05T15:05:00.434Z",
+    "is_superuser": false,
+    "username": "Dharamraj",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-03-01T07:16:52.308Z",
+    "name": "DHARAMRAJ PRODUCTION",
+    "designation": "Founder",
+    "is_admin": true,
+    "profile_image": "prifile_images/dfe67a0103a6bce52c0ca9d7f2e6a3b9.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Developer.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$KEVjRfuvmt3I3q7ZDGzdjN$c7SaXyaTALzYkJ7pbt8BajpwtB0fRrJxtf28TyjhS4c=",
+    "last_login": "2024-03-01T07:23:20.400Z",
+    "is_superuser": false,
+    "username": "Staff",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-03-01T07:20:41.425Z",
+    "name": "Rameshwar Pawar",
+    "designation": "Developer",
+    "is_admin": false,
+    "profile_image": "prifile_images/My_Profile.jpg",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 1,
+  "fields": {
+    "state_name": "Andhra Pradesh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 2,
+  "fields": {
+    "state_name": "Arunachal Pradesh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 3,
+  "fields": {
+    "state_name": "Assam"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 4,
+  "fields": {
+    "state_name": "Bihar"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 5,
+  "fields": {
+    "state_name": "Chhattisgarh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 6,
+  "fields": {
+    "state_name": "Goa"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 7,
+  "fields": {
+    "state_name": "Gujarat"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 8,
+  "fields": {
+    "state_name": "Haryana"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 9,
+  "fields": {
+    "state_name": "Himachal Pradesh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 10,
+  "fields": {
+    "state_name": "Jharkhand"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 11,
+  "fields": {
+    "state_name": "Karnataka"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 12,
+  "fields": {
+    "state_name": "Kerala"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 13,
+  "fields": {
+    "state_name": "Madhya Pradesh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 14,
+  "fields": {
+    "state_name": "Maharashtra"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 15,
+  "fields": {
+    "state_name": "Manipur"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 16,
+  "fields": {
+    "state_name": "Meghalaya"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 17,
+  "fields": {
+    "state_name": "Mizoram"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 18,
+  "fields": {
+    "state_name": "Nagaland"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 19,
+  "fields": {
+    "state_name": "Odisha"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 20,
+  "fields": {
+    "state_name": "Punjab"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 21,
+  "fields": {
+    "state_name": "Rajasthan"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 22,
+  "fields": {
+    "state_name": "Sikkim"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 23,
+  "fields": {
+    "state_name": "Tamil Nadu"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 24,
+  "fields": {
+    "state_name": "Telangana"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 25,
+  "fields": {
+    "state_name": "Tripura"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 26,
+  "fields": {
+    "state_name": "Uttar Pradesh"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 27,
+  "fields": {
+    "state_name": "Uttarakhand"
+  }
+},
+{
+  "model": "Developer.state",
+  "pk": 28,
+  "fields": {
+    "state_name": "West Bengal"
+  }
+},
+{
+  "model": "Developer.dealer",
+  "pk": 1,
+  "fields": {
+    "dealer_name": "Rameshwar Pawar NEW",
+    "business_name": "RP Technologies",
+    "mobile_no": "7776824564",
+    "email_id": "prameshwar4378@gmail.com",
+    "address": "At.Takali Sagaj Tq.Vaijapur, Dist.Aurangabad",
+    "state": 14,
+    "pin_code": "423701",
+    "gst_number": "GSTIN220156454646"
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 1,
+  "fields": {
+    "product_code": "DC0001",
+    "product_name": "DHARAMRAJ RAJWADI HOOD (32\")",
+    "description": null,
+    "sale_amount": 200,
+    "hsn_sac": 87089900,
+    "minimum_stock": 4,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 2,
+  "fields": {
+    "product_code": "DC0002",
+    "product_name": "DHARAMRAJ RAJWADI HOOD (28\")",
+    "description": null,
+    "sale_amount": 300,
+    "hsn_sac": 87089900,
+    "minimum_stock": 15,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 3,
+  "fields": {
+    "product_code": "DC0003",
+    "product_name": "DHARAMRAJ PUNJABI HOOD",
+    "description": null,
+    "sale_amount": 400,
+    "hsn_sac": 87089900,
+    "minimum_stock": 8,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 4,
+  "fields": {
+    "product_code": "DC0004",
+    "product_name": "DHARAMRAJ HOOD - LS MODEL",
+    "description": null,
+    "sale_amount": 500,
+    "hsn_sac": 87089900,
+    "minimum_stock": 11,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 5,
+  "fields": {
+    "product_code": "DC0005",
+    "product_name": "DHARAMRAJ BUMPER - LS MODEL",
+    "description": null,
+    "sale_amount": 600,
+    "hsn_sac": 87089900,
+    "minimum_stock": 20,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 6,
+  "fields": {
+    "product_code": "DC0006",
+    "product_name": "DHARAMRAJ BUMPER - 7G MODEL",
+    "description": null,
+    "sale_amount": 700,
+    "hsn_sac": 87089900,
+    "minimum_stock": 2,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 7,
+  "fields": {
+    "product_code": "DC0007",
+    "product_name": "DHARAMRAJ PETI BUMPER",
+    "description": null,
+    "sale_amount": 800,
+    "hsn_sac": 87089900,
+    "minimum_stock": 11,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 8,
+  "fields": {
+    "product_code": "DC0008",
+    "product_name": "DHARAMRAJ RAJWADI HOOD CLOTH",
+    "description": null,
+    "sale_amount": 900,
+    "hsn_sac": 87089900,
+    "minimum_stock": 19,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 9,
+  "fields": {
+    "product_code": "DC0009",
+    "product_name": "DHARAMRAJ CULTIVATOR -7 DUCK FOOT",
+    "description": null,
+    "sale_amount": 1000,
+    "hsn_sac": 84328090,
+    "minimum_stock": 15,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 10,
+  "fields": {
+    "product_code": "DC0010",
+    "product_name": "DHARAMRAJ CULTIVATOR -5 DUCK FOOT (SET)",
+    "description": null,
+    "sale_amount": 1100,
+    "hsn_sac": 84328090,
+    "minimum_stock": 18,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 11,
+  "fields": {
+    "product_code": "DC0011",
+    "product_name": "DHARAMRAJ CULTIVATOR 7 TINE",
+    "description": null,
+    "sale_amount": 1200,
+    "hsn_sac": 84328090,
+    "minimum_stock": 12,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 12,
+  "fields": {
+    "product_code": "DC0012",
+    "product_name": "DHARAMRAJ CULTIVATOR -5 TINE (SET)",
+    "description": null,
+    "sale_amount": 1300,
+    "hsn_sac": 84328090,
+    "minimum_stock": 5,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 13,
+  "fields": {
+    "product_code": "DC0013",
+    "product_name": "DHARAMRAJ CULTIVATOR - 3 CHISEL",
+    "description": null,
+    "sale_amount": 1400,
+    "hsn_sac": 84328090,
+    "minimum_stock": 17,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 14,
+  "fields": {
+    "product_code": "DC0014",
+    "product_name": "DHARAMRAJ CULTIVATOR BRACKET BULLOCK DRAWN",
+    "description": null,
+    "sale_amount": 1500,
+    "hsn_sac": 84328090,
+    "minimum_stock": 14,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 15,
+  "fields": {
+    "product_code": "DC0015",
+    "product_name": "DHARAMRAJ LAND LEVELER",
+    "description": null,
+    "sale_amount": 1600,
+    "hsn_sac": 84328090,
+    "minimum_stock": 8,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 16,
+  "fields": {
+    "product_code": "DC0016",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH 2 FARROW",
+    "description": null,
+    "sale_amount": 1700,
+    "hsn_sac": 84321090,
+    "minimum_stock": 4,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 17,
+  "fields": {
+    "product_code": "DC0017",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH 3 FARROW",
+    "description": null,
+    "sale_amount": 1800,
+    "hsn_sac": 84321090,
+    "minimum_stock": 17,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 18,
+  "fields": {
+    "product_code": "DC0018",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE",
+    "description": null,
+    "sale_amount": 1900,
+    "hsn_sac": 84328090,
+    "minimum_stock": 15,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 19,
+  "fields": {
+    "product_code": "DC0019",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE - 170 KG",
+    "description": null,
+    "sale_amount": 2000,
+    "hsn_sac": 84328090,
+    "minimum_stock": 19,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 20,
+  "fields": {
+    "product_code": "DC0020",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE - 200 KG",
+    "description": null,
+    "sale_amount": 2100,
+    "hsn_sac": 84328090,
+    "minimum_stock": 12,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 21,
+  "fields": {
+    "product_code": "DC0021",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE - 320 KG",
+    "description": null,
+    "sale_amount": 2200,
+    "hsn_sac": 84328090,
+    "minimum_stock": 7,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 22,
+  "fields": {
+    "product_code": "DC0022",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE - 330 KG",
+    "description": null,
+    "sale_amount": 2300,
+    "hsn_sac": 84328090,
+    "minimum_stock": 16,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 23,
+  "fields": {
+    "product_code": "DC0023",
+    "product_name": "DHARAMRAJ MOULD BOARD PLOUGH REVERSIBLE - 360 KG",
+    "description": null,
+    "sale_amount": 2400,
+    "hsn_sac": 84328090,
+    "minimum_stock": 10,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 24,
+  "fields": {
+    "product_code": "DC0024",
+    "product_name": "DHARAMRAJ POST HOLE DIGGER 9 INCH",
+    "description": null,
+    "sale_amount": 2500,
+    "hsn_sac": 84328090,
+    "minimum_stock": 12,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 25,
+  "fields": {
+    "product_code": "DC0025",
+    "product_name": "DHARAMRAJ RIDGER (1 ROW)",
+    "description": null,
+    "sale_amount": 2600,
+    "hsn_sac": 84328090,
+    "minimum_stock": 5,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 26,
+  "fields": {
+    "product_code": "DC0026",
+    "product_name": "DHARAMRAJ RIDGER (2 ROW)",
+    "description": null,
+    "sale_amount": 2700,
+    "hsn_sac": 84328090,
+    "minimum_stock": 9,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 27,
+  "fields": {
+    "product_code": "DC0027",
+    "product_name": "DHARAMRAJ SPRAYER PUMP 9 NOZZLE (BOOM) - 200 LTR.",
+    "description": null,
+    "sale_amount": 2800,
+    "hsn_sac": 84248200,
+    "minimum_stock": 17,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 28,
+  "fields": {
+    "product_code": "DC0028",
+    "product_name": "DHARAMRAJ SPRAYER PUMP 9 NOZZLE (BOOM) - 300 LTR.",
+    "description": null,
+    "sale_amount": 2900,
+    "hsn_sac": 84248200,
+    "minimum_stock": 14,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 29,
+  "fields": {
+    "product_code": "DC0029",
+    "product_name": "DHARAMRAJ TANKER (2000 LTR.)",
+    "description": null,
+    "sale_amount": 3000,
+    "hsn_sac": 87163100,
+    "minimum_stock": 13,
+    "gst": "18",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 30,
+  "fields": {
+    "product_code": "DC0030",
+    "product_name": "DHARAMRAJ TRAILER – (35 FEET -6.00X16 TYRE)",
+    "description": null,
+    "sale_amount": 3100,
+    "hsn_sac": 87162000,
+    "minimum_stock": 2,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 31,
+  "fields": {
+    "product_code": "DC0031",
+    "product_name": "DHARAMRAJ TRAILER (50 FEET - 6.00X16 TYRE)",
+    "description": null,
+    "sale_amount": 3200,
+    "hsn_sac": 87162000,
+    "minimum_stock": 20,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 32,
+  "fields": {
+    "product_code": "DC0032",
+    "product_name": "DHARAMRAJ TRAILER (60 FEET- 6.00X16 TYRE)",
+    "description": null,
+    "sale_amount": 3300,
+    "hsn_sac": 87162000,
+    "minimum_stock": 6,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 33,
+  "fields": {
+    "product_code": "DC0033",
+    "product_name": "DHARAMRAJ TRAILER – 60 FEET (7.50 X 16)",
+    "description": null,
+    "sale_amount": 3400,
+    "hsn_sac": 87162000,
+    "minimum_stock": 19,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 34,
+  "fields": {
+    "product_code": "DC0034",
+    "product_name": "DHARAMRAJ TRAILER – 90 FEET (9.00 X 16)",
+    "description": null,
+    "sale_amount": 3500,
+    "hsn_sac": 87162000,
+    "minimum_stock": 18,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 35,
+  "fields": {
+    "product_code": "DC0035",
+    "product_name": "DHARAMRAJ ROTARY TILLER 0.8M ('L' TYPE ) GEAR DRIVE - 16 BLADE",
+    "description": null,
+    "sale_amount": 3600,
+    "hsn_sac": 84328020,
+    "minimum_stock": 13,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 36,
+  "fields": {
+    "product_code": "DC0036",
+    "product_name": "DHARAMRAJ ROTARY TILLER 1M. ('L' TYPE ) GEAR DRIVE - 20 BLADE",
+    "description": null,
+    "sale_amount": 3700,
+    "hsn_sac": 84328020,
+    "minimum_stock": 13,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 37,
+  "fields": {
+    "product_code": "DC0037",
+    "product_name": "DHARAMRAJ ROTARY TILLER 1.2M ('L' TYPE ) GEAR DRIVE - 24 BLADE",
+    "description": null,
+    "sale_amount": 3800,
+    "hsn_sac": 84328020,
+    "minimum_stock": 16,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 38,
+  "fields": {
+    "product_code": "DC0038",
+    "product_name": "DHARAMRAJ ROTARY TILLER 6 Feet ('L' TYPE ) GEAR DRIVE - 42 BLADE",
+    "description": null,
+    "sale_amount": 3900,
+    "hsn_sac": 84328020,
+    "minimum_stock": 10,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 39,
+  "fields": {
+    "product_code": "DC0039",
+    "product_name": "DHARAMRAJ ROTARY TILLER 7 Feet ('L' TYPE ) GEAR DRIVE - 48 BLADE",
+    "description": null,
+    "sale_amount": 4000,
+    "hsn_sac": 84328020,
+    "minimum_stock": 1,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 40,
+  "fields": {
+    "product_code": "DC0040",
+    "product_name": "DHARAMRAJ ROTARY TILLER (RF) 0.7M",
+    "description": null,
+    "sale_amount": 4100,
+    "hsn_sac": 84328020,
+    "minimum_stock": 12,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 41,
+  "fields": {
+    "product_code": "DC0041",
+    "product_name": "DHARAMRAJ CULTIVATOR - 7 SPRING TYNE",
+    "description": null,
+    "sale_amount": 4200,
+    "hsn_sac": 84328090,
+    "minimum_stock": 17,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.product",
+  "pk": 42,
+  "fields": {
+    "product_code": "P120",
+    "product_name": "LAPTOP Apple",
+    "description": "This is about laptop",
+    "sale_amount": 50000,
+    "hsn_sac": 100,
+    "minimum_stock": 10,
+    "gst": "12",
+    "available_stock": 0
+  }
+},
+{
+  "model": "Developer.account",
+  "pk": 1,
+  "fields": {
+    "transaction_id": "TRDH000001",
+    "dealer": 1,
+    "amount": 2500,
+    "payment_mode": "Phone Pay",
+    "transaction_date": "2024-03-05T15:17:47.915Z",
+    "is_credit": true,
+    "balance": 2500,
+    "remark": "",
+    "invoice_number": null,
+    "created_by": 2,
+    "modified_by": null
+  }
+}
+]
