@@ -1,0 +1,7 @@
+on invoice alwys showing letest available balance
+
+From GSTUMBER Business details should be show by online
+
+NEED TO FIX Pagination AFTER APPLY FILTER
+
+Line no 109, Admin/Form.py   remove readonly access
