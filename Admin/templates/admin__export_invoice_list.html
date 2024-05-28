@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Data</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+
+    <style>
+        @page {
+            size: A4;
+            padding: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .company-details {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border-bottom: 2px solid #ccc;
+            background: #fff;
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        .logo img {
+            max-width: 240px;
+            max-height: 240px;
+        }
+
+        .info {
+            text-align: right;
+        }
+
+        .info h1 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+
+        .info p {
+            margin: 0px 0;
+            font-size: 1em;
+            color: #555;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .custom-container {
+            max-width: 800px;
+            margin: auto;
+            font-size: 10px;
+            line-height: 22px;
+            font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+            color: #555;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 5px;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid #ddd;
+            padding: 3px;
+            text-align: left;
+        }
+
+        .table th,
+        .table-footer {
+            background-color: #f2f2f2;
+        }
+        .td{
+            overflow: hidden;
+        }
+        .td-wrap {
+            white-space: normal; /* Allow text to wrap within this specific td */
+            overflow: hidden;
+        } 
+        .report-title {
+            width: 100%;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="custom-container">
+        <div class="company-details ">
+            <table>
+                <tr>
+                    <td>
+
+                        <div class="logo">
+                            <!-- <img src="{% static 'assets/images/logo.svg' %}" alt="Company Logo"> -->
+                            <div class="report-title">
+                                <h3 style="font-size:20px;"><b>Invoice Report</b></h3>
+                            </div>
+                            <p style="padding:5px 15px; border-radius:5px; box-shadow:0px 0px 10px -3px gray; margin:10px;">
+
+                                <p><b>From : </b> {{start_date}}</p>
+                                <p><b>To : </b> {{end_date}}</p>
+ 
+
+                        </div>
+                    </td>
+                    <td>
+                        <div class="info">
+                            <h1>RedPluto Analytics</h1>
+                            <p style=""><b>Office Address :</b> Bhumi Ind. Area-2, Plot-6, Bangluru Gondal Highway,
+                            </p>
+                            <p style="margin-top:-5px;">
+                            </p>
+                            <p style="margin-top:-5px;"><b>GST Number:</b> 24AAVFD3427H1ZB</p>
+                            <p style="margin-top:-5px;"><b>Contact Details:</b> Rajkot (Gujarat) India. Mobile : +91
+                                8200461535</p>
+                        </div>
+                    </td>
+                </tr>
+
+
+            </table>
+        </div>
+        <br>
+        <table class="table table-hover" style="background:white;">
+            {% if invoice_rec %}
+            <thead>
+                <tr>
+                    <th scope="col" class="text-center" style="width:5%;text-align:center;">Sr.No</th>
+                    <th scope="col" class="text-center" style="width:20%;text-align:center;">Invoice Number</th>
+                    <th scope="col" class="text-center" style="width:45%;text-align:center;">Dealer</th>
+                    <th scope="col" class="text-center" style="width:15%;text-align:center;">Bill Amount</th>
+                    <th scope="col" class="text-center" style="width:15%;text-align:center;">Invoice Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in invoice_rec %}
+                <tr>
+                    <td style="width:5%;text-align:center;">{{ forloop.counter }}</td>
+                    <td style="width:20%;text-align:center;"  class="text-left">{{ r.invoice_number }}</td>
+                    <td style="width:45%" >{{ r.dealer.business_name}}</td>
+                    <td style="width:15%;text-align:center;" >
+                         {{ r.grand_total}}.00
+                    </td> 
+                    <td style="width:15%;text-align:center;" >
+                        {{ r.invoice_date}}
+                    </td> 
+                </tr>
+                {% endfor %}
+            </tbody>
+            {% else %}
+            <tr>
+                <td colspan="5" class="text-center">
+                    <h3>No Records Found</h3>
+                </td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>
+    
+</body>
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+    {
+        %
+        for msg in messages %
+    } {
+        %
+        if msg.tags == 'success' %
+    }
+    swal({
+        title: "Good job!",
+        text: "{{msg}}",
+        icon: "success",
+        button: "OK",
+    });
+
+    {
+        % elif msg.tags == 'error' %
+    }
+    swal({
+        title: "Error",
+        text: "{{msg}}",
+        icon: "error",
+        button: "OK",
+    });
+
+    {
+        % elif msg.tags == 'warning' %
+    }
+    swal({
+        title: "Warning",
+        text: "{{msg}}",
+        icon: "warning",
+        button: "OK",
+    });
+
+    {
+        % elif msg.tags == 'info' %
+    }
+    swal({
+        title: "Oops",
+        text: "{{msg}}",
+        icon: "info",
+        button: "OK",
+    });
+
+    {
+        % endif %
+    } {
+        % endfor %
+    }
+</script>
+
+
+</html>
